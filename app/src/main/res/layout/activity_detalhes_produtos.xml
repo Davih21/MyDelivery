@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detalhes_Produtos">
+
+    <ImageView
+        android:id="@+id/dt_fotoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/dt_nomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bolo de chocolate"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/dt_descricaoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="falsfnlsnlpnsovnosabnvopbapvbaobnvafgpdemngodnondonbodnobndonbdonobndonbdonobndonbodnobndonbdonobopvbaobv"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Unitario"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/dt_precoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 50,00"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_finalizarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="Finalizar pedido"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:drawableEnd="@drawable/ic_add"
+        />
+
+</LinearLayout>
